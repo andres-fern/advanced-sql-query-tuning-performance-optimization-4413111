@@ -1,0 +1,8 @@
+[
+  {
+    "QUERY PLAN": "Seq Scan on staff  (cost=0.00..26.50 rows=1 width=75)"
+  },
+  {
+    "QUERY PLAN": "  Filter: ((email)::text = 'bphillips5@time.com'::text)"
+  }
+]

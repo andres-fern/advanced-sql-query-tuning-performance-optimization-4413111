@@ -1,0 +1,8 @@
+[
+  {
+    "QUERY PLAN": "Index Scan using idx_staff_email on staff  (cost=0.28..8.29 rows=1 width=75)"
+  },
+  {
+    "QUERY PLAN": "  Index Cond: ((email)::text = 'bphillips5@time.com'::text)"
+  }
+]
